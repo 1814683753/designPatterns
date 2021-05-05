@@ -20,5 +20,7 @@ public class Demo {
         subject.setTemperature(1);
         subject.setTemperature(20);
         subject.setTemperature(15);
+        // java也提供了原生的java.util.Observable可观察者类和java.util.Observer观察者接口，可观察者类这个并不好，
+        // 应该少用继承多用组合
     }
 }
